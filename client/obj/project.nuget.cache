@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ArLFnN8CFJSiM9AN6jpwn4u9X4i0DwDd6jjmJh6HFEubH/aBVDImAZMhafFZ8ixAHF8//o1NBJ+sQ+IWHr72fA==",
+  "success": true,
+  "projectFilePath": "F:\\ChattingRoom\\client\\client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\4a639\\.nuget\\packages\\microsoft.toolkit.uwp.notifications\\7.1.2\\microsoft.toolkit.uwp.notifications.7.1.2.nupkg.sha512",
+    "C:\\Users\\4a639\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+﻿<Window x:Class="client.show_img"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="show_img" Height="600" Width="600" ResizeMode="CanResizeWithGrip" ShowInTaskbar="False">
+    <Grid>
+
+        <Viewbox>
+            <Image x:Name="show" Width="{Binding RelativeSource={RelativeSource Self}, Path=Source.PixelWidth}"
+                         Height="{Binding RelativeSource={RelativeSource Self}, Path=Source.PixelHeight}"
+                         Source="{Binding CtrlImage, IsAsync=True}"
+                         Stretch="None"/>
+        </Viewbox>
+
+    </Grid>
+</Window>

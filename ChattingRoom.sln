@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChattingRoom", "ChattingRoom\ChattingRoom.csproj", "{6FC55DF1-E888-4136-8869-82B220E25521}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{CC0A3F54-CB78-4375-9ADC-FF2655D178A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC55DF1-E888-4136-8869-82B220E25521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC55DF1-E888-4136-8869-82B220E25521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC55DF1-E888-4136-8869-82B220E25521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC55DF1-E888-4136-8869-82B220E25521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0A3F54-CB78-4375-9ADC-FF2655D178A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0A3F54-CB78-4375-9ADC-FF2655D178A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0A3F54-CB78-4375-9ADC-FF2655D178A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0A3F54-CB78-4375-9ADC-FF2655D178A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39CCED92-F0DE-4516-AD77-0F400684D03C}
+	EndGlobalSection
+EndGlobal
