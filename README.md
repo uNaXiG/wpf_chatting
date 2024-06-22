@@ -27,4 +27,4 @@
 
 ## Demo影片
 
-- [詳細Demo影片](https://www.youtube.com/shorts/-zUP7ksWFlQ](https://youtu.be/UgQYf3DwyoI)
+- [詳細Demo影片](https://youtu.be/UgQYf3DwyoI)
