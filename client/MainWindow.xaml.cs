@@ -21,7 +21,7 @@ namespace client
     ///
 
     // 禁止客戶端多開 //
-    /*
+    
     public partial class App : Application
     {
         private static System.Threading.Mutex mutex;
@@ -31,7 +31,7 @@ namespace client
             if(mutex.WaitOne(0, false)) base.OnStartup(e);
             else Current.Shutdown();
         }
-    }*/
+    }
 
     public partial class MainWindow : Window
     {
