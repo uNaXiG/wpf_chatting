@@ -9,8 +9,8 @@
 - **圖片訊息**：可以傳送圖片，使用的是Base64編碼/解碼。
 
 ## Release Application
-[Server](https://opendata.cwa.gov.tw/dataset/all/F-D0047-091](https://drive.google.com/drive/folders/1Q3qCcqho5Y6u8JhNAk6nkf32i4b2wY2Y?usp=sharing)
-[Client](https://drive.google.com/drive/folders/1lVobSSCxCCfEtwPa0m-HzWDc_LtXmrtc?usp=sharing)
+- [Server](https://drive.google.com/drive/folders/1Q3qCcqho5Y6u8JhNAk6nkf32i4b2wY2Y?usp=sharing)
+- [Client](https://drive.google.com/drive/folders/1lVobSSCxCCfEtwPa0m-HzWDc_LtXmrtc?usp=sharing)
 
 ## 如何使用
 
@@ -27,4 +27,4 @@
 
 ## Demo影片
 
-[詳細Demo影片]([https://www.youtube.com/shorts/-zUP7ksWFlQ](https://youtu.be/UgQYf3DwyoI))
+- [詳細Demo影片](https://www.youtube.com/shorts/-zUP7ksWFlQ](https://youtu.be/UgQYf3DwyoI)
