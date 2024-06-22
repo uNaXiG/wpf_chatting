@@ -2,6 +2,9 @@
 
 本專案使用C# WPF製作。提供一個多人共同使用的聊天室，除了可以傳送文字訊息外，也能傳送圖片。
 
+## Demo影片
+
+- [詳細Demo影片](https://youtu.be/UgQYf3DwyoI)
 
 ## 功能簡介
 
@@ -24,7 +27,3 @@
 ![Query](demo.jpg)
 ![Query](demo1.jpg)
 ![Query](demo2.jpg)
-
-## Demo影片
-
-- [詳細Demo影片](https://youtu.be/UgQYf3DwyoI)
