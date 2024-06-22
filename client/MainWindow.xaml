@@ -1,0 +1,34 @@
+﻿<Window x:Class="client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="聊天室" Height="796" Width="1408" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" KeyDown="Window_KeyDown" Icon="/chat.png">
+    <Window.Background>
+        <ImageBrush Stretch="UniformToFill" ImageSource="/bg.jpg"/>
+    </Window.Background>
+    <Grid>
+        <RichTextBox IsReadOnly="True" x:Name="msg_box" HorizontalAlignment="Left" Height="663" VerticalAlignment="Top" Width="709" Margin="0,44,0,0" FontSize="24" Background="#7EFFFFFF" Foreground="#FFF1FF00" BorderThickness="2,2,1,2" BorderBrush="#FFF1F0EB"/>
+        <GroupBox Header="線上成員" x:Name="gb" Margin="714,39,350,89" Foreground="#FFF1FFC9" BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="24" Background="#7FFFFFFF" >
+            <Grid x:Name="grid" Margin="0,0,11,0" Height="621">
+            </Grid>
+        </GroupBox>
+        <Label x:Name="user_lb" HorizontalContentAlignment="Right" Content="" Margin="714,712,350,0" VerticalAlignment="Top"  FontSize="16" Height="38" Foreground="#FFF1FFC9" RenderTransformOrigin="0.5,0.5" BorderBrush="#FFF1F0EB" BorderThickness="2,2,2,2" Background="#7FFFFFFF"/>
+
+        <TextBox x:Name="msg_contant" HorizontalAlignment="Left" Height="74" Margin="0,712,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="709" FontSize="18" Background="#7FFFFFFF" KeyDown="msg_contant_KeyDown" Opacity="0.9" Foreground="#FF0B0B10" SelectionBrush="Black" MaxLength="300"/>
+
+        <Label x:Name="bar" Content="NaXiG Chatting" HorizontalContentAlignment="Center" VerticalAlignment="Top" Background="#FF3E3E3E" Height="39" FontSize="18" Foreground="#FFC9FFF6"/>
+        <MediaElement Margin="-390,141,1445,351" x:Name="sound" MediaEnded="sound_MediaEnded" />
+        <Image x:Name="send_btn" HorizontalAlignment="Left" Height="30" Margin="729,756,0,0" VerticalAlignment="Top" Width="27" Source="/send.png" Stretch="Fill" MouseLeftButtonDown="send_btn_MouseDown" Cursor="Hand"/>
+        <Button x:Name="close" Content="X" HorizontalAlignment="Left" Margin="1365,0,0,0" VerticalAlignment="Top" Background="#FF3E3E3E" FontSize="16" Width="39" Height="32" BorderBrush="#FF3E3E3E" Click="close_Click" Foreground="#FFC9FFF6"/>
+        <Button x:Name="min" Content="–" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="1328,0,0,0" VerticalAlignment="Top" Background="#FF3E3E3E" FontSize="18" Width="39" Height="32" BorderBrush="#FF3E3E3E" Click="min_Click" Foreground="#FFC9FFF6"/>
+        <Label Content="NaXiG © 2022  Version 1.0.0" HorizontalAlignment="Left" Margin="1120,756,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="32" Width="278" FontSize="18"/>
+        <Image x:Name="img_btn" HorizontalAlignment="Left" Height="30" Margin="762,756,0,0" VerticalAlignment="Top" Width="27" Source="/image.png" Stretch="Fill" MouseLeftButtonDown="img_btn_MouseLeftButtonDown" Cursor="Hand"/>
+        <GroupBox Header="歷史圖片" x:Name="gb_Copy" Margin="1063,44,10,46" Foreground="#FFF1FFC9" BorderBrush="{x:Null}" BorderThickness="1,1,1,1" FontSize="24" Background="#7FFFFFFF" >
+            <ListBox x:Name="images" d:ItemsSource="{d:SampleData ItemCount=5}" Background="{x:Null}" Margin="6,0,-2,0" SelectionChanged="images_SelectionChanged" Foreground="#FF004AFF" FontSize="24" />
+        </GroupBox>
+
+    </Grid>
+</Window>

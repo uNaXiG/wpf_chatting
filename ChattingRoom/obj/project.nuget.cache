@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GmfAkxsQNrFQNvvFCgd7jNgzESX8RksLuC0LUovh6x71u/aEw3x+KZud+o7FlL00pn8LWqmtVsaBARTl0ow1cg==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\ChattingRoom\\ChattingRoom\\ChattingRoom.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naxig\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\naxig\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

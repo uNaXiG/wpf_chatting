@@ -1,0 +1,20 @@
+﻿<Window x:Class="client.set_name"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:client"
+        mc:Ignorable="d"
+        Title="set_name" Height="205" Width="388" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="#FFE1F9FF" KeyDown="Window_KeyDown" Icon="/chat.png">
+    <Grid>
+        <TextBox x:Name="name_box" HorizontalAlignment="Left" Margin="127,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="20" MaxLength="10" TabIndex="8" Background="#FFFFFFF2"/>
+        <Button Content="加入聊天" HorizontalAlignment="Left" Margin="124,168,0,0" VerticalAlignment="Top" FontSize="14" Height="27" Width="78" Click="Button_Click" Background="#FF3E3E3E" Foreground="#FFC9FFF6" FontWeight="Bold"/>
+        <Label x:Name="bar" Content="NaXiG Chatting" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF3E3E3E" Width="541" FontSize="14" Foreground="#FFC9FFF6"/>
+        <Button Content="離開" HorizontalAlignment="Left" Margin="224,168,0,0" VerticalAlignment="Top" FontSize="14" Height="27" Width="56" Background="#FFBFC7CE" Foreground="Black" Click="Button_Click_1" BorderBrush="#FF040404"/>
+        <Label Content="請輸入名稱：" HorizontalAlignment="Left" Margin="15,90,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="歡迎光臨多人聊天室" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="聊天室IP：" HorizontalAlignment="Left" Margin="15,125,0,0" VerticalAlignment="Top" FontSize="16" Width="106"/>
+        <TextBox x:Name="ip_box" HorizontalAlignment="Left" Margin="127,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="237" FontSize="20" MaxLength="15" TabIndex="8" Background="#FFFFFFF2"/>
+
+    </Grid>
+</Window>

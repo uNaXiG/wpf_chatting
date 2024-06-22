@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tM2tgLledxadiNsxkfNRihohx8di2wvrzdiA49kejI3/tSEBtxRdhDdmoyJDMiL2yBqkYL7zT46GlTcL/PGqpA==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\ChattingRoom\\client\\client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naxig\\.nuget\\packages\\microsoft.toolkit.uwp.notifications\\7.1.2\\microsoft.toolkit.uwp.notifications.7.1.2.nupkg.sha512",
+    "C:\\Users\\naxig\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\naxig\\.nuget\\packages\\system.drawing.common\\8.0.6\\system.drawing.common.8.0.6.nupkg.sha512",
+    "C:\\Users\\naxig\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
